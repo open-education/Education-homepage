@@ -1,0 +1,131 @@
+.main {
+    width: 1400px;
+    min-height: 65%;
+    _height: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -700px;
+    margin-top: -335px;
+}
+
+.main .img{
+    width: 100%;
+    height: 12.5%;
+    float: left;
+}
+
+.main .list{
+    width: 100%;
+    min-height: 50%;
+    _height: 50%;
+    background-color: white;
+    float: left;
+    margin-top: 5px;
+    border: 1px solid #E8E8E8;
+}
+
+.main .list .list_top{
+    width: 96.5%;
+    height: 5%;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: #cccccc;
+    color: white;
+    font-family: "微软雅黑";
+    padding-left: 50px;
+    border-bottom: 5px solid #548235;
+    letter-spacing: 3px;
+    float: left;
+}
+
+.main .list .list_top ul{
+    margin: 0 auto;
+}
+.main .list .list_top li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+}
+
+.main .list .list_top li span{
+    color: #548235;
+    font-weight: bold;
+}
+
+.main .list .list_top li a {
+    padding: .1em 1.7em;
+    border-right: .1em solid #548235;
+    color: white;
+}
+
+.main .list .list_top li a:link,.main .list .list_top li a:visited
+{
+    text-decoration: none;
+    color: white;
+}
+
+.main .list .list_top li a:hover,.main .list .list_top li a:active
+{
+    text-decoration: none;
+    color: #548235;
+    font-weight: bold;
+}
+
+.main .list .left{
+    width: 48.5%;
+    min-height: 42%;
+    _height: 42%;
+    float: left;
+    margin: 10px 5px 10px 10px;
+    border: 1px solid #E8E8E8;
+}
+
+
+.main .list .right{
+    width: 48.5%;
+    min-height: 42%;
+    _height: 42%;
+    float: left;
+    margin: 10px 5px 10px 10px;
+    border: 1px solid #E8E8E8;
+}
+
+.main .list .left li,.main .list .right li
+{
+    list-style-type: square;
+    padding-left: 10px;
+    margin: 20px;
+    border-bottom: 1px dotted #CCC;
+    font-family: "微软雅黑";
+}
+
+.main .list .left a:link,.main .list .left a:visited
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.main .list .right a:link,.main .list .right a:visited
+{
+    text-decoration: none;
+    color: #000;
+}
+.main .list .left a:hover,.main .list .left a:active
+{
+    text-decoration: none;
+    color: #548235;
+}
+
+.main .list .right a:hover,.main .list .right a:active
+{
+    text-decoration: none;
+    color: #548235;
+}
+
+.main .list .left span,.main .list .right span{
+    float: right;
+    padding-right: 8px;
+    color: #548235;
+    font-size: 15px;
+}
